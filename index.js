@@ -15,7 +15,7 @@ trampwhite.addEventListener('click', function() {
 
     let random = Math.floor(Math.random() * 3);
 
-    span.innerHTML = "<img src=\" "+ cards[random] +" \" width=\"80px\">";
+    span.innerHTML = "<img src=\"./cards/" + cards[random] +" \" width=\"80px\">";
 
     community.appendChild(span);
 

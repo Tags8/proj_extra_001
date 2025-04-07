@@ -7,7 +7,6 @@
     height: 700px;
     border: 3px solid rgb(0, 0, 0);
     box-shadow: 10px 5px 5px rgb(177, 177, 177);
-    margin: auto;
 }
 
 .pok-community {
@@ -38,6 +37,31 @@
     margin: auto;
     margin-top: -250px;
     position: relative;
+}
+.gto-screen {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    top: 200px;
+    right: -300px;
+    background: radial-gradient(circle, #000 0%, #111 100%);
+    animation: blink 0.9s linear infinite;    
+}
+.cyber-text {
+    font-family: 'Orbitron', sans-serif;
+    color: #0ff;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+    margin-left: 10px;
+}
+
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.9;
+    }
 }
 
 .my-card1 {

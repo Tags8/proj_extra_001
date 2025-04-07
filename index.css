@@ -14,21 +14,77 @@
     position: absolute;
     width: 400px;
     height: 200px;
-    margin: 40% 0 0 120px;
+    margin: 10% 0 0 120px;
     background-color: transparent;
     border: 3px solid white;
+    z-index: 1000;
+}
+
+.opponent-zone {
+    border: 3px solid white;
+    width: 500px;  
+    height: 100px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.my-zone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    width: 500px;  
+    height: 100px;
+    margin: auto;
+    margin-top: -250px;
+    position: relative;
+}
+
+.my-card1 {
+    rotate: -10deg;
+    width: 100px;
+}
+.my-card2 {
+    rotate: 10deg;
+    width: 100px;
+}
+
+.poker-tip {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 70px;
 }
 
 .tramp-white1 {
     width: 480px;
     height: 760px;
-    margin: 50px 0 0 -180px;
+    margin: -150px 0 0 -180px;
     background-image: url(./tramp_wh.jpg);
     scale: 0.15;
+    cursor: pointer;
+    transition: filter 0.3s ease;
 }
 
-.tramp-whitee {
-    position: absolute;
-    width: 70px;
-    margin: 220px 0 0 -70px;
+.reset {
+    background-color: turquoise;
+    width: 100px;
+    height: 50px;
+}
+
+.tramp-white1:hover {
+    filter: brightness(0.8);
+}
+
+img {
+    width: 80px;
+    margin-top: 60px;
+}
+
+
+
+.background {
+    width: 100px;
+    height: 100px;
+    background-color: black;
 }

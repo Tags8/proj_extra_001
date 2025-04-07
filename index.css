@@ -20,11 +20,23 @@
 }
 
 .opponent-zone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 3px solid white;
     width: 500px;  
     height: 100px;
     margin: auto;
     margin-top: 50px;
+    position: relative;
+}
+
+.fight {
+    position: absolute;
+    top: 470px;
+    left: 20px;
+    background-color: rgb(184, 255, 103);
+    border-radius: 10px;
 }
 
 .my-zone {
@@ -67,15 +79,32 @@
 .my-card1 {
     rotate: -10deg;
     width: 100px;
+    margin-bottom: 100px;
+}
+.my-card3 {
+    rotate: 10deg;
+    width: 100px;
+    margin-bottom: 100px;
 }
 .my-card2 {
-    rotate: 10deg;
+    width: 100px;
+    rotate: 190deg;
+}
+.my-card4 {
+    rotate: -10deg;
     width: 100px;
 }
 
 .poker-tip {
     position: absolute;
     right: 10px;
+    bottom: 10px;
+    width: 70px;
+}
+
+.poker-tip1 {
+    position: absolute;
+    left: 10px;
     bottom: 10px;
     width: 70px;
 }
@@ -107,8 +136,3 @@ img {
 
 
 
-.background {
-    width: 100px;
-    height: 100px;
-    background-color: black;
-}
